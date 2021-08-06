@@ -9,6 +9,12 @@ sudo apt-get install tesseract-ocr
 ```
 **Code:**
 ```
+from PIL import Image
+import pytesseract
+import sys
+from pdf2image import convert_from_path
+import os
+
 PDF_file = "new.pdf"							//opens
 pages = convert_from_path(PDF_file, 500)				//counter pages to stores images
 image_counter = 1
