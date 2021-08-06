@@ -35,19 +35,19 @@ f.close()
 
 
 **ERRORS:**
-*To change from jovyan to root:  (https://github.com/jupyter/docker-stacks/issues/408) 	//TO USE SUDO
+To change from jovyan to root:  (https://github.com/jupyter/docker-stacks/issues/408) 	//TO USE SUDO
 docker exec -it -u root container_id bash   //no password required
 
-*Password issue:
+Password issue:
 tried url pasting multiple times.
 
-*Unable to locate package tesseract-ocr(https://github.com/codenvy/codenvy/issues/1068)
+Unable to locate package tesseract-ocr(https://github.com/codenvy/codenvy/issues/1068)
 	->sudo apt-get update
 	->sudo apt-get install tesseract-ocr 		//doesnt work if executed first.
 
-*to find number of pages(https://github.com/Belval/pdf2image/issues/25)
+to find number of pages(https://github.com/Belval/pdf2image/issues/25)
 	->sudo apt-get install -y poppler-utils
-*Get path:(https://linuxize.com/post/python-get-change-current-working-directory/#:~:text=To%20find%20the%20current%20working,chdir(path)%20.)
+Get path:(https://linuxize.com/post/python-get-change-current-working-directory/#:~:text=To%20find%20the%20current%20working,chdir(path)%20.)
 ```
 import os
 os.getcwd()
