@@ -35,6 +35,7 @@ f.close()
 
 
 **ERRORS:**
+
 To change from jovyan to root:  (https://github.com/jupyter/docker-stacks/issues/408) 	//TO USE SUDO
 docker exec -it -u root container_id bash   //no password required
 
